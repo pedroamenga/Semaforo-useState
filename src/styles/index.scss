@@ -1,13 +1,64 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.marcoSemaforo{
+    display: inline-block;
+    border: 5px solid black;
+    background-color: black
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.color1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+}
+.color1-luz{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    box-shadow: rgb(248, 126, 126) 0px 0px 50px 20px;
+}
 
-*/
+.color2{
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    background-color:yellow;
+    text-align: center;
+
+}
+
+.color2-luz{
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    background-color:yellow;
+    text-align: center;
+    box-shadow: lightyellow 0px 0px 50px 20px;
+}
+
+.color3{
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    border-radius: 50%;
+    background-color: green;
+    text-align: center;
+}
+
+.color3-luz{
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    border-radius: 50%;
+    background-color: green;
+    text-align: center;
+    box-shadow: lightgreen 0px 0px 50px 20px;
+}
